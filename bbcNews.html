@@ -14,14 +14,21 @@
     #middlebar{
       background-color:#BB1919;
       height:75px;
-      
-   }
+      margin-right:auto;
+      margin-left:auto;
+      position:relative;
+      top:-5px;
+      width:1250px;
+  }
 
    #thirdsection{
      background-color:#A91717;
      height:40px;
      position:relative;
-     top:-16px;
+     top:-21px;
+     margin-right: auto;
+     margin-left: auto;
+     width:1250px;
      /* color:white; */
    }
     /* div and browser ke beech space nahi rahe */
@@ -43,7 +50,7 @@
       float:left;
       border-left:1px #CCCCCC solid;
       /* border-bottom:1px black solid; */
-      height:56px;
+      height:50px;
     }
 
     #signinimage{
@@ -79,7 +86,7 @@
     font-weight: bold;
     font-size:90%;
     padding:17px 25px 0px 25px;
-     height:39px;  
+     height:33px;  
     }
 
     #arrowbutton{
@@ -108,24 +115,25 @@
       margin-top: 17px;
       color:white;
       font-weight: normal;
-      font-size: 40px;
     }
     .newstext{
       float:left;
       margin-left: 48px;
+      font-size: 40px;
     }
     .findlocation{
       float:right;
       margin-right:145px;
       padding:5px 10px;
-      height:45px;
-      border:  #F9FFFF inset;
-      border-width:thin;
+      font-size: 35px;
+      /* height:40px; */
+      /* border:  #F9FFFF inset;
+      border-width:thin; */
     }
     #locationicon{
       float:right;
       margin-left:7px;
-      /* height:50px; */
+      height:37px;
     }
     .thirdsection-text{
       margin-top: 11px;
@@ -136,6 +144,7 @@
       float:left;
       font-size: 90%;
       border-left:1px #F9FFFF inset;
+
       /* font-size: 40px; */
     }
    .thirdsection-firsttext{
@@ -147,6 +156,7 @@
      margin-top: 8px;
      margin-left: -9px;
      height:25px;
+     float:left;
    }
   </style>
 
@@ -197,14 +207,17 @@
     </div>
  </div>
 
- <p id="middlebar">
+ <div id="middlebar">
+ <p>
    <span class="middlebar-text newstext">NEWS</span>
    <span class="middlebar-text findlocation">Find local news 
-    <img  id="locationicon" src="images/locationicon.png"> 
+    <img  id="locationicon" src="images/locationicon.png">
    </span>
+    
   </p>
-
-  <p id="thirdsection">
+</div>
+  <div id="thirdsection">
+  <p>
     <span class="thirdsection-text thirdsection-firsttext">Home</span>
     <span class="thirdsection-text">UK</span>
     <span class="thirdsection-text">World</span>
@@ -219,7 +232,7 @@
     <span class="thirdsection-text">More</span>
     <img id="downarrow" src="images/downarrow.PNG">
   </p>
-
+</div>
 </body>
 
 
