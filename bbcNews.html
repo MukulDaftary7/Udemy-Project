@@ -167,23 +167,31 @@
     position:relative;
     top:-12px;
  }
+ #reading-section{
+   width:800px;
+   height:275px;
+   border-right:0.5px #5a5a5a solid;
+ }
   #content{
     width:225px;
     margin-left: 47px;
-    margin-top: 7px;
+    margin-top: 35px;
+    color:#5a5a5a;
     /* height:150px; */
   }
   #heading{
     font-weight: bold;
     margin-left:47px;
     font-size:24px;
+    padding-top:5px;
   }
   #date{
+    color:5a5a5a;
     margin-left:47px;
     margin-top:14px;
   }
   #clockicon{
-    padding-top: 1px;
+    padding-top: 2px;
     height:15px;
     float:left;
   }
@@ -192,8 +200,30 @@
     padding-right:3px; 
   }
   #afterdatetext{
-    padding-left: 3px;
+    padding-left: 5px;
     padding-right: 3px;
+    border-left:2px solid #E4E4E4;
+    color:#a91717;
+  } 
+  hr{
+    margin-top:15px;
+    margin-left:47px;
+    background-color:#a91717;
+    width:65px;
+    height:0.5px;
+  }
+  .technews{
+    margin-left:47px;
+    width:275px;
+    margin:5px 0px 15px 47px;
+  }
+  #updates{
+    float:left;
+  }
+  #asda-image{
+    margin-top: 20px;
+     width:450px;
+    height:200px;
   }
   </style>
 
@@ -272,10 +302,10 @@
 </div>
 
 <div id="updates-section">Technology</div>
-  <div>
+  <div id="reading-section">
     <div id="firstsection">
       <div id="heading">Asda bug exposed payment details</div>
-      <div>
+      <div id="updates">
         <div id="content">Security vulnerabilities that put 
           customers at risk have affected 
           Asda's website for a couple of years,
@@ -285,10 +315,13 @@
           <span id="datetext">19 January 2016</span>
           <span id="afterdatetext">Technology</span>
          </div>  
-
-        
-
-      </div>
+         <hr>
+         <div class="technews">
+          Surveillance firm hit in hack attack
+         </div>
+         <div class="technews">eBay flaw has existed for months</div>
+   </div>
+   <img id="asda-image"src="images/main-article-image.png">
 
     </div>
 
